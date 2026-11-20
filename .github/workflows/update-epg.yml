@@ -1,0 +1,43 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Runs daily at 02:00 UTC (10:00 AM SGT)
+  workflow_dispatch:    # Allows you to trigger updates manually anytime
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my custom channels
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Clone iptv-org/epg
+        run: git clone --depth 1 -b master https://github.com/iptv-org/epg.git epg-tool
+
+      - name: Install dependencies
+        working-directory: ./epg-tool
+        run: npm install
+
+      - name: Grab EPG
+        working-directory: ./epg-tool
+        run: npm run grab --- --channels=../custom.channels.xml --output=../public/guide.xml --days=3 --delay=500
+
+      - name: Upload artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

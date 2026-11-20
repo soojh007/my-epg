@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="sky.com" site_id="GB#1340" lang="en" xmltv_id="SkySportsNews.uk@HD">SkySp News HD</channel>
+  <channel site="sky.com" site_id="GB#1096" lang="en" xmltv_id="SkySportsPremierLeague.uk@HD">SkySp PL HD</channel>
+  <channel site="sky.com" site_id="GB#1701" lang="en" xmltv_id="SkySportsMainEvent.uk@HD">SkySpMainEvHD</channel>
+  <channel site="sky.com" site_id="GB#1120" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
+  <channel site="sky.com" site_id="GB#3627" lang="en" xmltv_id="TNTSports2.uk@HD">TNTSports2 HD</channel>
+  <channel site="sky.com" site_id="GB#3629" lang="en" xmltv_id="TNTSports3.uk@HD">TNTSports3 HD</channel>
+  <channel site="sky.com" site_id="GB#4040" lang="en" xmltv_id="TNTSports4.uk@HD">TNTSports4 HD</channel>
+  <channel site="sky.com" site_id="GB#1043" lang="en" xmltv_id="ITV1.uk@LondonHD">ITV1 HD</channel>
+  <channel site="singtel.com" site_id="4102" lang="en" xmltv_id="HubPremier1.sg@SD">Hub Premier 1</channel>
+  <channel site="singtel.com" site_id="4103" lang="en" xmltv_id="HubPremier2.sg@SD">Hub Premier 2</channel>
+  <channel site="singtel.com" site_id="4104" lang="en" xmltv_id="HubPremier3.sg@SD">Hub Premier 3</channel>
+  <channel site="singtel.com" site_id="4105" lang="en" xmltv_id="HubPremier4.sg@SD">Hub Premier 4</channel>
+  <channel site="singtel.com" site_id="4106" lang="en" xmltv_id="HubPremier5.sg@SD">Hub Premier 5</channel>
+</channels>
