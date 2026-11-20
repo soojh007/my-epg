@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <!-- UK Sports & Entertainment (via sky.com) -->
   <channel site="sky.com" site_id="GB#1340" lang="en" xmltv_id="SkySportsNews.uk@HD">SkySp News HD</channel>
   <channel site="sky.com" site_id="GB#1096" lang="en" xmltv_id="SkySportsPremierLeague.uk@HD">SkySp PL HD</channel>
   <channel site="sky.com" site_id="GB#1701" lang="en" xmltv_id="SkySportsMainEvent.uk@HD">SkySpMainEvHD</channel>
+  <channel site="sky.com" site_id="GB#3843" lang="en" xmltv_id="SkySportsFootball.uk@HD">SkySp F'ball HD</channel>
   <channel site="sky.com" site_id="GB#1120" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
   <channel site="sky.com" site_id="GB#3627" lang="en" xmltv_id="TNTSports2.uk@HD">TNTSports2 HD</channel>
   <channel site="sky.com" site_id="GB#3629" lang="en" xmltv_id="TNTSports3.uk@HD">TNTSports3 HD</channel>
   <channel site="sky.com" site_id="GB#4040" lang="en" xmltv_id="TNTSports4.uk@HD">TNTSports4 HD</channel>
+  <channel site="sky.com" site_id="GB#1003" lang="en" xmltv_id="MUTV.uk@SD">MUTV HD</channel>
+  <channel site="sky.com" site_id="GB#3000" lang="en" xmltv_id="BBCOne.uk@LondonHD">BBC One Lon HD</channel>
   <channel site="sky.com" site_id="GB#1043" lang="en" xmltv_id="ITV1.uk@LondonHD">ITV1 HD</channel>
+
+  <!-- Singapore Hub Premier (via singtel.com) -->
   <channel site="singtel.com" site_id="4102" lang="en" xmltv_id="HubPremier1.sg@SD">Hub Premier 1</channel>
   <channel site="singtel.com" site_id="4103" lang="en" xmltv_id="HubPremier2.sg@SD">Hub Premier 2</channel>
   <channel site="singtel.com" site_id="4104" lang="en" xmltv_id="HubPremier3.sg@SD">Hub Premier 3</channel>
   <channel site="singtel.com" site_id="4105" lang="en" xmltv_id="HubPremier4.sg@SD">Hub Premier 4</channel>
   <channel site="singtel.com" site_id="4106" lang="en" xmltv_id="HubPremier5.sg@SD">Hub Premier 5</channel>
+
+  <!-- Singapore Free-to-Air / News (via singtel.com) -->
+  <channel site="singtel.com" site_id="5002" lang="en" xmltv_id="Channel5.sg@SD">Ch 5 (HD)</channel>
+  <channel site="singtel.com" site_id="5003" lang="en" xmltv_id="Channel8.sg@SD">Ch 8 (HD)</channel>
+  <channel site="singtel.com" site_id="5007" lang="en" xmltv_id="ChannelU.sg@SD">Ch U (HD)</channel>
+  <channel site="singtel.com" site_id="5006" lang="en" xmltv_id="CNA.sg@SD">CNA (HD)</channel>
+
+  <!-- Singapore StarHub Sports & E City (via starhubtvplus.com) -->
+  <channel site="starhubtvplus.com" site_id="b5c3d45b-e2c9-462b-bcf1-06a149d68f25" lang="en" xmltv_id="HubSports1.sg@SD">Hub Sports 1 HD</channel>
+  <channel site="starhubtvplus.com" site_id="347fa620-e966-423c-8d46-98469f0fc974" lang="en" xmltv_id="HubSports2.sg@SD">Hub Sports 2 HD</channel>
+  <channel site="starhubtvplus.com" site_id="4ff7b357-9338-41a3-b7be-ede530555279" lang="en" xmltv_id="HubSports3.sg@SD">Hub Sports 3 HD</channel>
+  <channel site="starhubtvplus.com" site_id="3181b9a2-f8f4-489c-b8fd-d19f923c6f62" lang="en" xmltv_id="HubECity.sg@SD">Hub E City HD</channel>
+
+  <!-- Malaysia Astro (via content.astro.com.my) -->
+  <channel site="content.astro.com.my" site_id="235" lang="ms" xmltv_id="AstroArena.my@SD">Astro Arena</channel>
 </channels>
